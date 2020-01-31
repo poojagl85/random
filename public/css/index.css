@@ -1,0 +1,264 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto.ttf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow-x: hidden;
+  font-family: Roboto;
+  letter-spacing: 1px;
+}
+
+.Head {
+  background-color: #050536;
+}
+
+.HeadWrapper {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 70px;
+  width: 177px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 147px;
+  height: 40px;
+}
+
+.Slide {
+  width: 100%;
+  height: 565px;
+  background: radial-gradient(rgba(0, 0, 20, 0.4), rgba(0, 0, 5, 0.2)),
+    url("../images/slide.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.slide-wrapper {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.left-slide,
+.right-slide {
+  width: 50%;
+}
+
+.right-slide {
+  width: 45%;
+}
+
+.left-slide img {
+  width: 135px;
+  height: 75px;
+  margin: 5px 10px;
+  box-shadow: 0 0 20px 0 gray;
+}
+
+.Home {
+  width: 70%;
+  margin: 125px auto;
+}
+
+.combinator {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-combinator {
+  width: 60%;
+}
+.caller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.caller a button {
+  background-color: white;
+  border: 2px solid #050536;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  height: 50px;
+  width: 250px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.caller a button:hover {
+  background-color: #050536;
+  color: white;
+}
+
+.bundler {
+  display: flex;
+}
+
+.right-bundler {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-bundler {
+  width: 60%;
+}
+.right-bundler img {
+  width: 90%;
+  height: 70%;
+}
+
+.ad_clone {
+  height: 150px;
+  display: flex;
+  place-content: space-around;
+  place-items: center;
+  background-color: #050536;
+  margin-top: 100px;
+}
+
+.ad_clone h1 {
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-family: Roboto;
+  color: white;
+}
+
+.ad_clone button {
+  background-color: white;
+  border: 2px solid #050536;
+  color: #050536;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  height: 50px;
+  width: 250px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.ad_clone button:hover {
+  background-color: black;
+  color: white;
+}
+
+.img_holder {
+  height: 800px;
+  width: 100%;
+  background-image: url(../images/installation.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-top: 100px;
+}
+
+.shutter {
+  width: 100%;
+  color: white;
+}
+
+.address {
+  background-color: #050536;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+}
+.address a {
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.cpyrgt {
+  background-color: black;
+  height: 100px;
+  background-color: #020222;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeadText {
+  width: 60%;
+}
+.HeadText ul {
+  display: flex;
+}
+.HeadText ul li {
+  list-style: none;
+}
+.HeadText ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 800;
+  font-family: Roboto;
+  letter-spacing: 1px;
+}
+.HeadText ul li:nth-child(1) {
+  margin-right: 6%;
+}
+.left-slide h2 a {
+  color: white;
+  text-decoration: none;
+}
+.left-slide h2 a i {
+  color: black;
+}
+.right-slide h2 {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 1;
+}
+.right-slide h3 {
+  font-size: 25px;
+}
+.left-combinator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.left-combinator img {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.right-combinator h2 {
+  color: #173f52;
+  font-weight: 800;
+}
+.right-combinator b {
+  color: #173f52;
+}
+.left-bundler h2 {
+  color: #173f52;
+  font-weight: 800;
+}
+.left-bundler b {
+  color: #173f52;
+}
