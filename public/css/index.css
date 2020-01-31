@@ -146,9 +146,9 @@ body {
 }
 
 .ad_clone button {
-  background-color: white;
-  border: 2px solid #050536;
-  color: #050536;
+  background-color: #050536;
+  border: 2px solid white;
+  color: white;
   border-radius: 50px;
   font-size: 15px;
   font-weight: 600;
@@ -160,8 +160,8 @@ body {
 }
 
 .ad_clone button:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #050536;
 }
 
 .img_holder {
